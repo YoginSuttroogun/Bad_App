@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yo_mu_000.signin" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signUpDetails"
+            android:label="@string/title_activity_sign_up_details" >
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name=".toyotaCars"
+            android:label="@string/title_activity_toyota_cars" >
+        </activity>
+        <activity
+            android:name=".bmwCars"
+            android:label="@string/title_activity_bmw_cars" >
+        </activity>
+        <activity
+            android:name=".nissanCars"
+            android:label="@string/title_activity_nissan_cars" >
+        </activity>
+        <activity
+            android:name=".signUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".CarDetails"
+            android:label="@string/title_activity_car_details" >
+        </activity>
+        <activity
+            android:name=".CarDetailToyota"
+            android:label="@string/title_activity_car_detail_toyota" >
+        </activity>
+    </application>
+
+</manifest>

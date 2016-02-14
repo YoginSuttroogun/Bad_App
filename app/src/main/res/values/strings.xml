@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sign In</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_sign_up_details">Sign Up</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_toyota_cars">Toyota Cars</string>
+    <string name="title_activity_bmw_car">Bmw Car</string>
+    <string name="title_activity_bmw_cars">Bmw Cars</string>
+    <string name="title_activity_nissan_car">nissanCar</string>
+    <string name="title_activity_nissan_cars">nissanCars</string>
+    <string name="title_activity_car_details">CarDetails</string>
+    <string name="title_activity_car_detail_toyota">CarDetailToyota</string>
+</resources>

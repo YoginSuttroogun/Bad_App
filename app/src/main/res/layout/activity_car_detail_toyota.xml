@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.yo_mu_000.signin.CarDetailToyota"
+    android:id="@+id/carDetailToyotaId">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plate No"
+        android:id="@+id/plateNoTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="N75"
+        android:id="@+id/plateNoDetailsTextView"
+        android:layout_alignBottom="@+id/plateNoTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Color"
+        android:id="@+id/colorTextView"
+        android:layout_below="@+id/plateNoTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Blue"
+        android:id="@+id/colorDetailsTextView"
+        android:layout_alignBottom="@+id/colorTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Year"
+        android:id="@+id/yearTextView"
+        android:layout_below="@+id/colorTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nov 2013"
+        android:id="@+id/yearDetailsTextView"
+        android:layout_alignBottom="@+id/yearTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Engine"
+        android:id="@+id/engineTextView"
+        android:layout_below="@+id/yearTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1300 cc"
+        android:id="@+id/engineDetailsTextView"
+        android:layout_alignBottom="@+id/engineTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Date to"
+        android:id="@+id/dateToTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/dateToDetailsInput"
+        android:layout_alignBottom="@+id/dateToTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Date from"
+        android:id="@+id/dateFromTextView"
+        android:layout_below="@+id/dateToTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/dateFromDetailsInput"
+        android:layout_alignBottom="@+id/dateFromTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rate"
+        android:id="@+id/rateTextView"
+        android:layout_below="@+id/dateFromTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rs 2000/day"
+        android:id="@+id/rateDetailsTextView"
+        android:layout_alignBottom="@+id/rateTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="150dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rent"
+        android:id="@+id/rentButton"
+        android:layout_below="@+id/rateTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:width="125dp"
+        android:onClick="rent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/cancelButton"
+        android:layout_alignBottom="@+id/rentButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:width="125dp" />
+
+</RelativeLayout>
