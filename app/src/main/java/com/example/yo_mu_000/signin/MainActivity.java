@@ -253,7 +253,7 @@ public class MainActivity extends Activity {
             }
             else{
                 Intent g=new Intent(getApplicationContext(),Gallery.class);
-                Toast.makeText(MainActivity.this,"Welcome "+usernameInputStr,Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Welcome "+usernameInputStr+"!",Toast.LENGTH_LONG).show();
                 startActivity(g);
             }
 
